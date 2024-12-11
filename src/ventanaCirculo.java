@@ -10,7 +10,7 @@ public class ventanaCirculo extends JFrame{
     private JLabel lbPerimetro;
 
     public ventanaCirculo(){
-        setTitle("Ventana Rectangulo");
+        setTitle("Ventana Circulo");
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(640, 480);
         add(circuloPanel);

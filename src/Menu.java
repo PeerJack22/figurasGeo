@@ -33,5 +33,19 @@ public class Menu {
                 nuevaVentana.setVisible(true);
             }
         });
+        triánguloButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ventanaTriangulo nuevaVentana = new ventanaTriangulo();
+                nuevaVentana.setVisible(true);
+            }
+        });
+        trapecioButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                ventanaTrapecio nuevaVentana = new ventanaTrapecio();
+                nuevaVentana.setVisible(true);
+            }
+        });
     }
 }
